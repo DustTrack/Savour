@@ -1,9 +1,11 @@
 package com.dusttrack.savour;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.dusttrack.savour.core.BaseActivity;
+
+
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
