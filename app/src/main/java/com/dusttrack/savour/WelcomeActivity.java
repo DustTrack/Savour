@@ -16,7 +16,8 @@ public class WelcomeActivity extends BaseActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(WelcomeActivity.this,HomeActivity.class);
+                startActivity(WelcomeActivity.this, MainActivity.class);
+                finish();
             }
         }, delayedTiem);
     }
